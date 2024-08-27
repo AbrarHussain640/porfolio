@@ -1,0 +1,332 @@
+/* Media Query for screen sizes up to 1034px */
+@media screen and (max-width: 1034px) {
+    .lists ul {
+        display: none; 
+    }
+
+    .image img {
+        width: 8vw; 
+        height: 10vh;
+        border-radius: 50%;
+    }
+
+    .nav-bars {
+        display: contents; 
+        position: absolute;
+        top: 12px;
+        font-size: 50px;
+        color: lightblue;
+    }
+
+    .nav-bars i {
+        position: absolute;
+        right: 80px;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    #slide-toggle-list {
+        display: none; 
+        position: absolute;
+        top: 80px;
+        right: 70px;
+        font-size: 1rem;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        z-index: 1;
+    }
+    .introduction {
+        flex-direction: column;
+        height: 50vh;
+        overflow: auto;
+    }
+
+    #left_content, .right_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right_content img {
+        display: none;
+    }
+
+    .about-content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .skills_box {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .skills_box > div {
+        width: 80%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .skills h1 {
+        font-size: 40px;
+    }
+
+    .skills_box > div img {
+        width: 100px;
+    }
+    #content {
+        flex-direction: column;
+        align-items: center;
+        overflow: auto;
+        padding: 5px;
+    }
+
+    .logo, .office, .links_footer, .images {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .logo img, .images img {
+        width: 80px; /* Adjusted size for smaller screens */
+        height: auto;
+    }
+
+    .logo p {
+        font-size: 16px;
+    }
+
+    .office h2, .links_footer h1 {
+        font-size: 24px;
+    }
+
+    .links_footer li a {
+        font-size: 16px;
+    }
+    
+}
+
+
+
+/* Media Query for screen sizes up to 700px */
+@media screen and (max-width: 700px) {
+    #nav_bar{
+        width: 100%;
+    }
+    .image h1 {
+        font-size: 30px;
+    }
+
+    .lists ul li a {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    #slide-toggle-list a {
+        font-size: 18px;
+        padding: 15px;
+    }
+    .introduction {
+        height: 55vh;
+        overflow: auto;
+    }
+
+    .about-content {
+        padding: 10px;
+    }
+
+    #leftbar{
+        display: none;
+    }
+
+    #rightbar{
+        width: 100%;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .skills_box > div {
+        width: 90%;
+    }
+
+    .skills_box > div h2 {
+        font-size: 25px;
+    }
+
+    .skills_box > div p {
+        font-size: 18px;
+    }
+
+    .skills_box > div img {
+        width: 80px;
+    }
+   
+    .logo img, .images img {
+        width: 60px; /* Further adjustment */
+    }
+
+    .logo p {
+        font-size: 14px;
+    }
+
+    .office h2, .links_footer h1 {
+        font-size: 22px;
+    }
+
+    .links_footer li a {
+        font-size: 14px;
+    }
+}
+
+/* Media Query for screen sizes up to 540px */
+@media screen and (max-width: 540px) {
+    .image img {
+        width: 6vw;
+        height: 15vh;
+    }
+
+    .image h1 {
+        font-size: 25px;
+    }
+
+    .lists ul li a {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .nav-bars {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    #slide-toggle-list a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .introduction {
+        height: 63vh;
+        padding: 5px;
+        overflow: auto;
+    }
+
+    .about-content {
+        padding: 5px;
+    }
+
+    .skills_box > div {
+        width: 95%;
+    }
+
+    .skills_box > div h2 {
+        font-size: 22px;
+    }
+
+    .skills_box > div p {
+        font-size: 16px;
+    }
+
+    .skills_box > div img {
+        width: 70px;
+    }
+    
+    .logo img, .images img {
+        width: 50px; /* Further adjustment */
+    }
+
+    .logo p {
+        font-size: 12px;
+    }
+
+    .office h2, .links_footer h1 {
+        font-size: 20px;
+    }
+
+    .links_footer li a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 330px) and (max-width: 460px) {
+    #left_content .btn {
+        display: none;
+    }
+}
+
+/* Media Query for screen sizes up to 310px */
+@media screen and (max-width: 310px) {
+    .image img {
+        display: none; 
+    }
+
+    .image h1 {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .nav-bars i {
+        position: absolute;
+        right: 40px;
+        top: 10px;
+        font-size: 2rem;
+    }
+
+    #slide-toggle-list {
+        display: none;
+        position: absolute;
+        top: 55px;
+        right: 30px;
+        font-size: 1rem;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        z-index: 1; 
+    }
+
+    .introduction {
+        height: 90vh;
+        padding: 2px;
+        overflow: auto;
+    }
+
+    .about-content {
+        padding: 2px;
+    }
+
+    .skills h1 {
+        font-size: 25px;
+    }
+
+    .skills_box > div {
+        width: 100%;
+    }
+
+    .skills_box > div h2 {
+        font-size: 18px;
+    }
+
+    .skills_box > div p {
+        font-size: 14px;
+    }
+
+    .skills_box > div img {
+        width: 50px;
+    }
+    .logo img, .images img {
+        width: 40px; /* Further adjustment */
+    }
+
+    .logo p {
+        font-size: 10px;
+    }
+
+    .office h2, .links_footer h1 {
+        font-size: 18px;
+    }
+
+    .links_footer li a {
+        font-size: 10px;
+    }
+}

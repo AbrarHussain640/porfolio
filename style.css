@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+}
+
+nav {
+    width: 100vw;
+    height: auto;
+    background-color: rgb(4, 29, 59);
+    display: flex;
+    gap: 5vmax;
+}
+
+.nav-bars {
+    display: none;
+}
+
+
+.image {
+    display: flex;
+    padding-left: 2vmax;
+}
+
+.image img {
+    width: 8vw;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.image h1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.lists ul {
+    display: flex;
+}
+
+.lists ul li {
+    list-style-type: none;
+}
+
+.lists ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding-top: 35px;
+    font-size: 2rem;
+    padding-left: 35px;
+}
+
+.lists ul li a:hover {
+    color: yellow;
+}
+
+
+/* Introduction Section Styling */
+.introduction {
+    background-color: black;
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    overflow: auto;
+}
+
+#left_content,
+.right_content {
+    width: 48%;
+}
+
+
+/*  */
+
+#left_content {
+    width: 60%;
+    color: white;
+}
+
+#left_content h2 {
+    padding-top: 50px;
+    padding-left: 0;
+    font-size: 30px;
+}
+
+#left_content h1 {
+    padding-left: 0;
+    font-size: 40px;
+    filter: drop-shadow(0 0 0.95rem rgb(17, 255, 0));
+}
+
+#left_content h1:hover {
+    color: red;
+}
+
+#left_content p {
+    padding-left: 0;
+    font-size: 35px;
+}
+
+#left_content p span {
+    color: rgb(221, 255, 0);
+}
+
+#left_content .p_content {
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#left_content img {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#left_content img:hover {
+    filter: drop-shadow(0 0 0.85rem rgb(0, 251, 255));
+}
+
+#left_content .btn {
+    position: relative;
+    top: 80px;
+    width: 130px;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#left_content .btn:hover {
+    background-color: brown;
+    filter: drop-shadow(0 0 0.95rem rgb(0, 251, 255));
+}
+
+.right_content img {
+    position: absolute;
+    top: 20vh;
+    right: 40px;
+    padding-top: 20px;
+    width: 30%;
+    height: 60vh;
+    border-radius: 50%;
+}
+
+.right_content img:hover {
+    border-radius: 30%;
+    filter: drop-shadow(0 0 0.85rem rgb(0, 251, 255));
+}
+
+/*  */
+
+
+
+
+.about_content {
+    width: 100vw;
+    height: auto;
+    background-color: rgb(0, 56, 63);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+#leftbar {
+    width: 50%;
+}
+
+#leftbar img {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 70%;
+    height: 60vh;
+    border-radius: 30%;
+}
+
+#leftbar img:hover {
+    filter: drop-shadow(0 0 0.85rem rgb(0, 251, 255));
+}
+
+#rightbar {
+    width: 50%;
+}
+
+#rightbar h1 {
+    font-size: 40px;
+}
+
+#rightbar h1:hover {
+    color: red;
+}
+
+#rightbar h1 sub {
+    color: yellow;
+}
+
+#rightbar p {
+    padding: 5px;
+    padding-right: 15px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#rightbar .btnone {
+    position: relative;
+    top: 10px;
+    width: 130px;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#rightbar .btnone:hover {
+    background-color: rgb(255, 0, 0);
+    filter: drop-shadow(0 0 0.95rem rgb(0, 251, 255));
+}
+
+/*  */
+
+.skills {
+    width: 100%;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.skills h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 54px;
+    color: white;
+    filter: drop-shadow(0 0 0.95rem rgb(251, 255, 0));
+}
+
+.skills h1:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.skills_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px auto;
+    width: 90%;
+    border: 2px solid rgb(82, 96, 128);
+    border-radius: 5px;
+}
+
+.skills_box > div {
+    margin: 10px auto;
+    color: white;
+    width: 30%;
+    height: auto;
+    border: 2px solid rgb(0, 132, 255);
+    border-radius: 5px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.skills_box > div:hover {
+    filter: drop-shadow(0 0 0.95rem rgb(0, 255, 85));
+}
+
+.skills_box > div h2 {
+    font-size: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.skills_box > div h2:hover {
+    color: yellow;
+}
+
+.skills_box > div p {
+    font-size: 19px;
+    text-align: justify;
+}
+
+.skills_box > div img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.contact_us {
+    width: 100%;
+    height: 400px;
+    background: url(contact.png);
+}
+
+.contact_us h1 {
+    color: white;
+    font-size: 44px;
+    text-align: center;
+}
+
+.contact_us h1:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.contact_us h1 span {
+    color: red;
+}
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+form label {
+    font-size: 30px;
+    color: white;
+}
+
+form input {
+    height: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#btn {
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#btn:hover {
+    background-color: black;
+    color: yellow;
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    height: 340px;
+    background-color: black;
+}
+
+#content {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    filter: drop-shadow(0 0 0.95rem rgb(0, 255, 255));
+    display: flex;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 120px;
+    width: 30%;
+}
+
+.logo img {
+    height: 120px;
+    width: 160px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 0.95rem rgb(255, 0, 179));
+}
+
+.logo p {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+}
+
+.office {
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 20%;
+    color: white;
+}
+
+.office h2 {
+    font-size: 40px;
+    filter: drop-shadow(0 0 0.95rem rgb(17, 255, 0));
+}
+
+.links_footer {
+    width: 20%;
+    margin-left: 0;
+    color: white;
+}
+
+.links_footer h1 {
+    font-size: 39px;
+    filter: drop-shadow(0 0 0.95rem rgb(17, 255, 0));
+}
+
+
+.links_footer {
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 40px;
+    width: 20%;
+}
+
+.links_footer li {
+    list-style-type: none;
+}
+
+.links_footer li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.images{
+    position: absolute;
+    top: 100px;
+    width: 20%;
+}
+.images img {
+    position: relative;
+    left: 1220px;
+    width: 40px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 0.85rem rgb(255, 238, 0));
+    padding: 10px;
+}
+
+
+
+
+/* The EnD Styling CSS */
